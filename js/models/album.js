@@ -26,7 +26,7 @@ class Album {
 
     showHTML() {
         return ` 
-        <img src=${this.image} alt="album cover image">
+        <a href=${this.link}><img src=${this.image} alt="album cover image"></a>
         <h3>${this.title}</h3>
         <h4>${this.artist}</h4>
         <p>Price: ${this.price}</p>
