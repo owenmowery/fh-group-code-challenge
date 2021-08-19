@@ -28,12 +28,39 @@ html {
     align-items: center;
 }
 
-.album-container:hover {
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
 .album-container img {
     width: 200px;
     height: 200px;
-    border-radius: 2rem;
+    margin-bottom: 2%;
+    margin-left: 20%; 
     cursor: pointer;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.album-container p {
+    text-align: center;
+    padding: 2%;
+}
+
+.album-title {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .007em;
+    font-family: SF Pro Display;
+}
+
+.album-artist {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 400;
+    letter-spacing: .007em;
+    font-family: SF Pro Display;
+}
+
+.album-date {
+    line-height: 1.16667;
+    font-weight: 400;
+    letter-spacing: .007em;
+    font-family: SF Pro Display;
 }

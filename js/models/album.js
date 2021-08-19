@@ -25,10 +25,10 @@ class Album {
     showHTML() {
         return ` 
         <a href=${this.link}><img src=${this.image} alt="album cover image"></a>
-        <h3>${this.title.slice(0, 20)}..</h3>
-        <h4>${this.artist}</h4>
-        <p>Price: ${this.price}</p>
-        <p>Release Date: ${this.date}</p>
+        <p class="album-title">${this.title.slice(0, 20)}...</p>
+        <p class="album-artist">${this.artist.slice(0, 20)}...</p>
+        <p class="album-price">Price: ${this.price}</p>
+        <p class="album-date">Release Date: ${this.date}</p>
         `
     }
 
