@@ -1,3 +1,12 @@
 @media only screen and (max-width: 425px) {
-    
+
+    .album-container {
+        text-align: center;
+        margin-left: 12%;
+    }
+    .album-container img {
+        height: 200px;
+        width: auto;
+        margin-left: 0;
+    }
 }
