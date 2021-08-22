@@ -2,8 +2,8 @@
 
 This is a website built in HTML, CSS, and Vanilla Javascript. It pulls data in using an iTunes API and displays them in a collection on the screen. You have the ability to search for an album by name, and it will display on the screen.
 
-# Screenshot of Header
-(/Users/owen/Desktop/fh-group-code-challenge/img/screenshot-1.png)
+# Screenshot of UI
+
 
 ## Installation
 
