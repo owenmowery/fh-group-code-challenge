@@ -1,4 +1,5 @@
 class API {
+    //pulling api data and saving all album objects on the client side
     static addSongs() {
         fetch("https://itunes.apple.com/us/rss/topalbums/limit=100/json")
         .then(resp => resp.json())

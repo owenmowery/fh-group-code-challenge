@@ -1,5 +1,6 @@
 class Album {
 
+    //array to hold all album objects 
     static all = [];
 
     constructor(id, image, title, artist, link, price, date) {
@@ -10,10 +11,10 @@ class Album {
         this.link = link;
         this.price = price;
         this.date = date;
-
         this.renderAlbum();
     }
 
+    //renders albums into the DOM
     renderAlbum() {
         const albumHolder = document.getElementById('album-collection');
         const albumContainer = document.createElement('div');
@@ -25,8 +26,8 @@ class Album {
     showHTML() {
         return ` 
         <a href=${this.link}><img src=${this.image} alt="album cover image"></a>
-        <p class="album-title">${this.title.slice(0, 20)}...</p>
-        <p class="album-artist">${this.artist.slice(0, 20)}...</p>
+        <p class="album-title">${this.title.slice(0, 15)}...</p>
+        <p class="album-artist">${this.artist.slice(0, 15)}...</p>
         <p class="album-price">Price: ${this.price}</p>
         <p class="album-date">Release Date: ${this.date}</p>
         `
