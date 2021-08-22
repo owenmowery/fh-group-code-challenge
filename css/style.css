@@ -34,6 +34,14 @@ header {
     padding-top: 27%;
 }
 
+#search-bar {
+    padding-left: 10%;
+}
+
+#album-collection {
+    padding-left: 3%;
+}
+
 .album-container {
     padding: 2%;
     font-size: 1.9vh;
