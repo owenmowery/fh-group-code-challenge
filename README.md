@@ -4,6 +4,9 @@ This is a website built in HTML, CSS, and Vanilla Javascript. It pulls data in u
 
 # Screenshot of UI
 
+![Screen Shot 2021-08-22 at 7 46 43 PM](https://user-images.githubusercontent.com/51758491/130374286-97d8d75f-7167-4dbc-96f7-87f9e7d966f6.png)
+
+![Screen Shot 2021-08-22 at 7 47 01 PM](https://user-images.githubusercontent.com/51758491/130374294-d2a4f6e1-391a-42bf-845e-0fd87f809aa5.png)
 
 ## Installation
 
